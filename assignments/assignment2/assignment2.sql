@@ -1,6 +1,5 @@
 -- CPSC 408 Assignment 02
 -- Chinook Database Queries
--- Points: 40
 
 -- 1. Create a table Patient(patientID, name, dob, phone)
 -- Note that patientID is the primary key of the table. Use appropriate data types.
