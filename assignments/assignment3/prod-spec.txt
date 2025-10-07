@@ -1,0 +1,46 @@
+
+CPSC 408
+Assignment 3
+Using the Chinook Database
+SET 1
+1) Write a query to return the average duration of tracks (in milliseconds) for each composer.
+2) Write a query to return the total number of unique customers.
+3) Write a query to get the total number of records and the max unit price for each media type,
+genre combination.
+4) Write a query to get the average duration of tracks (in milliseconds) for each genre. Your result
+must have Genre Name in the result.
+5) Write a query to show the total number of albums per artist name.
+6) Write a query to return the number of invoices per billing city, billed in the USA.
+SET 2
+1) Write a query to return the average duration of tracks (in milliseconds) for each composer, for
+tracks with a duration shorter than 375000 milliseconds.
+2) Write a query to return the average duration of tracks (in milliseconds) for each composer,
+where the average duration is less than 375000 milliseconds.
+3) Find the names of all billing countries that have fewer than 10 records.
+4) Find the name of the billing country that has 8 cities in the invoices table.
+5) Write a query to find billing countries and the sum of their totals, that have more than 5 records
+each, from the year 2010.
+
+
+
+How to Create and Submit a .sql File
+CPSC408
+A .sql file is just a plain text file containing some set of queries.
+We can open .sql files in DataGrip and run SQL queries directly from them, which
+makes life easier for us. We can also use them to transfer SQL queries, and to submit
+assignments.
+Steps:
+1. Open up DataGrip and your preferred database.
+2. If not already, open the File menu to the right of the screen by navigating to the
+top bar and selecting the file icon.
+3. In our file menu, open up the folder you would like to place the new .sql file in
+4. Right click on the folder, and navigate to New -> SQL file. Give your file a name.
+5. Once the new file opens, take a look at the top bar. Under the <session> menu,
+navigate to the database your queries are for and create a new session
+6. Once you do this, ensure your dialect dropdown to the left of the session
+dropdown says SQLite (or whatever other SQL RDBMS you are using!)
+7. Now, you can copy and paste your queries into this file and run them just like a
+console. You can comment out single lines for file readability with “-- comment”,
+and create multiline comments with “/* comment */”
+8. Save this file and navigate to whatever folder you saved it in to be able to
+transport/submit this file to canvas.
