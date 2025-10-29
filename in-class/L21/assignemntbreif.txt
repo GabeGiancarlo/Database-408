@@ -1,0 +1,36 @@
+
+CPSC 408 In Class Assignment
+Transactions
+Submit all queries to create the below transactions in a .sql file
+1. Run the below sql queries in your Sakila database using DataGrip to prepare your
+tables. This will prevent any foreign key failures during the next steps as well as turn off
+autocommit for now.
+DELETE film_actor
+FROM film_actor
+INNER JOIN actor
+ON actor.actor_id = film_actor.actor_id
+WHERE actor.first_name = 'CUBA';
+SET autocommit = 0;
+2. Within DataGrip, set your database connection to Manual Transaction Mode
+a. Right click on your MySQL connection in your database explorer
+b. Navigate to properties
+c. Click on the options tab of the connection.
+d. Under the section named “Transaction Control,” set the dropdown to “Manual”
+from its current “Automatic”
+e. Apply these changes
+3. Write a transaction that completes the following steps.
+a. Start a new transaction.
+b. Select all actors from the actor table
+c. Insert a new actor with values (999, 'NICOLE', 'STREEP', NOW()) to the actor
+table
+d. Set a new savepoint.
+e. Delete the actor with the first name 'CUBA' from the actors table
+f. Select all actors from the actors table again
+g. Roll back to the savepoint you created
+h. Select all actors from the actor table a third time
+i. Commit the transaction.
+4. How many actors resulted in each of your select statements? How many rows will be in
+the actor table after the transaction is over?
+5. Set autocommit back to 1 and return your DataGrip connection back to “Automatic”
+transaction control using the method from step 2.
+SET autocommit = 1;
