@@ -1,0 +1,22 @@
+Starting Rideshare Web Application...
+Access the application at: http://localhost:8080
+ * Serving Flask app 'web_app'
+ * Debug mode: on
+2025-11-02 20:51:47,005 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-11-02 20:51:47,005 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-02 20:51:47,006 - werkzeug - INFO -  * Restarting with stat
+2025-11-02 20:51:47,124 - werkzeug - WARNING -  * Debugger is active!
+2025-11-02 20:51:47,135 - werkzeug - INFO -  * Debugger PIN: 660-696-077
+2025-11-02 20:51:54,341 - werkzeug - INFO -  * Detected change in '/Users/gabegiancarlo/Projects/Database-408-3/assignments/assignment5/db_operations.py', reloading
+Starting Rideshare Web Application...
+Access the application at: http://localhost:8080
+2025-11-02 20:51:54,377 - werkzeug - INFO -  * Restarting with stat
+2025-11-02 20:51:54,543 - werkzeug - WARNING -  * Debugger is active!
+2025-11-02 20:51:54,552 - werkzeug - INFO -  * Debugger PIN: 660-696-077
+2025-11-02 20:55:47,244 - werkzeug - INFO -  * Detected change in '/Users/gabegiancarlo/Projects/Database-408-3/assignments/assignment5/web_app.py', reloading
+Starting Rideshare Web Application...
+Access the application at: http://localhost:8080
+2025-11-02 20:55:47,269 - werkzeug - INFO -  * Restarting with stat
+2025-11-02 20:55:47,478 - werkzeug - WARNING -  * Debugger is active!
+2025-11-02 20:55:47,489 - werkzeug - INFO -  * Debugger PIN: 660-696-077
