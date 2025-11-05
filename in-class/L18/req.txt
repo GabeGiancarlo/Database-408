@@ -1,0 +1,27 @@
+
+Page
+1
+of 2
+Outer Joins and Subqueries
+CPSC408
+OUTER JOINS - Using the Sakila database in MySQL, create the following queries
+using outer joins:
+1. Show the address IDs of all addresses in the 'California' District that do not
+have a store. (9 rows).
+2. Show me all film names and how many stores they are inventoried at. Return
+all films, even if they are not in stock in any store. (1000 rows)
+3. Show me the first names of all actors and the titles of films they are in. All
+actors should be returned, even if they have no films. (5462 rows)
+4. Show me all actorIDs and all filmIDs, matching where the actor has been in
+the film and still showing all actors and all films who have no matches. (5465
+rows)
+SUBQUERIES - Using the Sakila database in MySQL, create the following queries
+using subqueries:
+5. Write a query to return the rental duration of each film from the film table.
+Return a second column in this same query that is the average rental duration of
+all films. (Result: 1000 Rows)
+6. Write a query to return the number of categories from the film_category table
+that have over 60 films in them. (Result: 10)
+7. Write a query to return the average payment amount of all payments that were
+made by customers in Mexico (this will be a long query). (Result: 4.154573)
+8. Write a query that returns the same result as question 3, using NO subqueries.
